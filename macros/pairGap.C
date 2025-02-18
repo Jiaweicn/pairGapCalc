@@ -1,9 +1,7 @@
-//calculation nucleon-pair gaps of isotopes of a specifical element
 //using mass to calc gap
-//using data from mass table of artemis
 //for proton gap, neutron gap and neutron-proton interaction energy
 /*see paper doi.org/10.1016/0375-9474(88)90370-3*/
-#include "/home/cai/prjs/include/cpp/outColor.h"
+
 #include "../constant.h"
 #include "ameMass2020.h"
 #include "shared.h"
@@ -44,10 +42,10 @@ void pairGap(short z0=50,short n0=0){//3 kind of nucleon-pair gaps of a series o
 	short a0=0;
 	if(z0>0 && n0==0){//isotopes
 		a0=z0;
-		cout<<"calculating gaps for isotopes: Z="<<GREEN<<z0<<RESET<<"\n";
+		cout<<"calculating gaps for isotopes: Z="<<z0<<"\n";
 	}
 	else if(n0>0 && z0==0){//isotones
-		cout<<"calculating gaps for isotones: N="<<GREEN<<n0<<RESET<<"\n";
+		cout<<"calculating gaps for isotones: N="<<n0<<"\n";
 		a0=n0;
 	}
 	else{
