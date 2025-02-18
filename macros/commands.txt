@@ -1,0 +1,6 @@
+root -l allPairGap.C
+root -l 'pairGap.C(50,0)'
+root -l 'pairGap.C(0,50)'
+root -l 'isodiapherPairGap.C(0)'
+root -l 'isodiapherPairGap.C(20)'
+root -l 'isodiapherPairGap.C(-2)'
