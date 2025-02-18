@@ -1,7 +1,3 @@
-//calculation nucleon-pair gap of an isodiapher chain
-//using mass to calc gap
-//using data from mass table of artemis
-#include "/home/cai/prjs/include/cpp/outColor.h"
 #include "../constant.h"
 #include "ameMass2020.h"
 #include "shared.h"
