@@ -1,6 +1,8 @@
-root -l allPairGap.C
-root -l 'pairGap.C(50,0)'
-root -l 'pairGap.C(0,50)'
-root -l 'isodiapherPairGap.C(0)'
-root -l 'isodiapherPairGap.C(20)'
-root -l 'isodiapherPairGap.C(-2)'
+command examples:
+
+all nuclides:  root -l allPairGap.C
+isotopes:      root -l 'pairGap.C(50,0)'
+isotones:      root -l 'pairGap.C(0,50)'
+isodiapher:    root -l 'isodiapherPairGap.C(0)'
+              root -l 'isodiapherPairGap.C(20)'
+              root -l 'isodiapherPairGap.C(-2)'
