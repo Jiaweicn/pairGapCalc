@@ -1,8 +1,3 @@
-//calculation pair gap of ALL known isotopes
-//using binding energy to calc gap
-//using data from mass table of artemis
-//only for proton gap and neutron gap
-#include "/home/cai/prjs/include/cpp/outColor.h"
 #include "../constant.h"
 #include "ameMass2020.h"
 #include "shared.h"
